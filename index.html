@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Adding Employees</title>
+</head>
+<body>
+    <h3>New Employees</h3>
+    <form class="myForm">
+        <div class="content">
+            <label class="empLabel">Enter Name</label>
+            <input id="nameInput" type="text">
+        </div>
+        <div class="content">
+            <label class="empLabel">Enter Profession</label>
+            <input id="professionInput" type="text">
+        </div>
+        <div class="content">
+            <label class="empLabel">Enter Age</label>
+            <input id="ageInput" type="text">
+        </div>
+    </form>
+    <input id="addUserBtn" type="submit" value="Add User">
+    <p id="errorMsg">User added</p>
+    <p>Added Employees</p>
+    <p id="employeeCount">You have 0 Employees.</p>
+    <div class="employeeContainer">
+        <div class="employeeList"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
